@@ -49,7 +49,6 @@
  *
  *
  * @author [[http://me@keithpinson.com Keith Pinson]]
- *
  */
 
 package object docSample {

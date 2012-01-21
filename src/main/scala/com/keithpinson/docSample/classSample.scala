@@ -9,6 +9,7 @@ package docSample
  * To change this template in IntelliJ use File | Settings | File Templates.
  */
 
+ 
 /**
  * Start right off with the description of what the class does.
  *

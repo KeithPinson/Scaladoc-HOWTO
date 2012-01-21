@@ -9,6 +9,7 @@ package docSample
  * To change this template in IntelliJ use File | Settings | File Templates.
  */
 
+ 
 /**
  * ==Basic Scaladoc Syntax==
  *
