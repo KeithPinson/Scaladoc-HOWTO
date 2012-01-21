@@ -16,7 +16,8 @@
 
 @md api
 @cd api
-call scaladoc.bat -classpath %CLASSPATH% %PACKAGES%
+call scaladoc.bat %PACKAGES%
+::call scaladoc.bat -classpath %CLASSPATH% %PACKAGES%
 :: call D:\src\ScalaProjects\scala-lang\scala-2.10.0-M1\bin\scaladoc.bat -classpath %CLASSPATH% %PACKAGES%
 
 :: Copy jpg, png, and other such resources 
