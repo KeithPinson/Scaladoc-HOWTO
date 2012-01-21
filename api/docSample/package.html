@@ -5,98 +5,94 @@
           <title>docSample</title>
           <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
           
-      <link href="../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link type="text/css" media="screen" rel="stylesheet" href="../lib/template.css" />
       <script type="text/javascript" src="../lib/jquery.js"></script>
       <script type="text/javascript" src="../lib/jquery-ui.js"></script>
       <script type="text/javascript" src="../lib/template.js"></script>
       <script type="text/javascript" src="../lib/tools.tooltip.js"></script>
     
         </head>
-        <body class="value" onload="sh_highlightDocument('../lib/', '.min.js');">
+        <body class="value">
       <div id="definition">
         <img src="../lib/package_big.png" />
         
         <h1>docSample</h1>
       </div>
 
-      <h4 id="signature" class="signature">
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">package</span>
-      </span>
-      <span class="symbol">
+      <h4 class="signature" id="signature">
+      <span class="kind">package</span>
+      <span class="symbol"> 
         <span class="name">docSample</span>
+        
+        
       </span>
       </h4>
       
-          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>READ ME FIRST</p><p>This is the root package and the place to describe how to use your
+          <div class="fullcommenttop" id="comment"><div class="comment cmt"><p>READ ME FIRST</p><p>This is the root package and the place to describe how to use your
 software tool, platform, or framework.</p><p>Code commenting caters to two distinct workflows.  One is the user of the code and the other
 is the maintainer of the code.  Scaladoc is used to create a software API that is entirely
 accessible through a web browser.  So, it caters to the user of the code.  This is
 a black box view of the code.  Keep this in mind and write your scaladoc comments for an
-audience that knows very little about what your software does.</p><p>Because this is an API it is appropriate to:</p><ul><li>Plug the benefits of your software</li><li>State which versions and build tools are known to work</li><li>Provide links to a tutorial or demo to facilitate speedy evaluation</li><li>Give step-by-step instructions to setup a build</li><li>Provide plenty of descriptions and examples</li></ul><p>Go to <a href="syntax.html" class="extype" name="docSample.syntax">syntax</a> to see how to insert markup.</p><h4>How to Run Scaladoc<br/>for this Example</h4><p>(Scala will need to be downloaded and installed for this to work)</p><ol class="decimal"><li>Make a directory for the generated web pages, <i>md api</i><br/></li><li>Change directory, <i>cd api</i><br/></li><li>Run the the tool,<br/>
+audience that knows very little about what your software does.</p><p>Because this is an API it is appropriate to:</p><ul><li>Plug the benefits of your software</li><li>State which versions and build tools are known to work</li><li>Provide links to a tutorial or demo to facilitate speedy evaluation</li><li>Give step-by-step instructions to setup a build</li><li>Provide plenty of descriptions and examples</li></ul><p>Go to <a name="docSample.syntax" class="extype" href="syntax.html">syntax</a> to see how to insert markup.</p><h4>How to Run Scaladoc<br/>for this Example</h4><p>(Scala will need to be downloaded and installed for this to work)</p><ol class="decimal"><li>Make a directory for the generated web pages, <i>md api</i><br/></li><li>Change directory, <i>cd api</i><br/></li><li>Run the the tool,<br/>
     <i>scaladoc &lt;space separated list of directories with a *.scala wildcard&gt;</i><br/><br/></li></ol><h4>Alternate Ways to Run Scaladoc</h4><ul><li>Sbt can be used also by using the <i>doc</i> command.  Be prepared though, Sbt may run an older version of Scaladoc.<br/><br/></li><li>IntelliJ IDEA 11 comes with a &quot;Generate Scaladoc&quot; tool.  <i>(When I tried it Jan of 2012 it did not automatically support the project's CLASSPATH -- it may be working by the time you read this.)</i><br/><br/></li><li>I understand there is an Eclipse plugin.  <i>I have not tried it.</i><br/><br/></li><li>The tried-and-true method is to run Scaladoc with an Ant build.  The Scala Language API is current built this way.<br/></li></ul><p><br/><br/>
-<b>Note:</b> Tested and built from the command prompt using:</p><ul><li>scaladoc v2.9.1</li><li>scaladoc v2.10.0M1</li></ul><p><br/> <br/></p></div><dl class="attributes block"> <dt>See also</dt><dd><span class="cmt"><p><a href="termsAndConditions.html" class="extype" name="docSample.termsAndConditions">termsAndConditions</a><br/>
+<b>Note:</b> Tested and built from the command prompt using:</p><ul><li>scaladoc v2.9.1</li><li>scaladoc v2.10.0M1</li></ul><p><br/> <br/></p></div><dl class="attributes block"> <dt>See also</dt><dd><span class="cmt"><p><a name="docSample.termsAndConditions" class="extype" href="termsAndConditions.html">termsAndConditions</a><br/>
 <a href="http://github.com/KeithPinson/Scaladoc-HOWTO" target="_top">Scala code used to generate what you're looking at now</a></p></span></dd></dl></div>
         
 
-      <div id="mbrsel">
-        <div id="textfilter"><span class="pre"></span><span class="input"><input type="text" accesskey="/" /></span><span class="post"></span></div>
-        
-        
-        <div id="visbl">
-            <span class="filtertype">Visibility</span>
-            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
-          </div>
-      </div>
-
       <div id="template">
-        <div id="allMembers">
+
+        <div id="mbrsel">
+          <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
+          
+          
+          <div id="visbl">
+              <span class="filtertype">Visibility</span>
+              <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+            </div>
+        </div>
+
         
 
-        <div id="types" class="types members">
+        <div class="types members" id="types">
               <h3>Type Members</h3>
-              <ol><li name="docSample.syntax" visbl="pub" data-isabs="false">
+              <ol><li visbl="pub" name="docSample.syntax" data-isabs="false">
       <a id="syntax:syntax"></a>
       <h4 class="signature">
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">class</span>
-      </span>
-      <span class="symbol">
-        <a href="syntax.html"><span class="name">syntax</span></a><span class="result"> extends AnyRef</span>
+      <span class="kind">class</span>
+      <span class="symbol"> 
+        <a href="syntax.html"><span class="name">syntax</span></a>
+        
+        <span class="result"> extends AnyRef</span>
       </span>
       </h4>
       <p class="comment cmt">Just like javadoc, scaladoc comments are identified by adding an extra asterisk
 to the start of the comment block.</p>
-    </li><li name="docSample.termsAndConditions" visbl="pub" data-isabs="false">
+    </li><li visbl="pub" name="docSample.termsAndConditions" data-isabs="false">
       <a id="termsAndConditions:termsAndConditions"></a>
       <h4 class="signature">
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">class</span>
-      </span>
-      <span class="symbol">
-        <a href="termsAndConditions.html"><span class="name">termsAndConditions</span></a><span class="result"> extends AnyRef</span>
+      <span class="kind">class</span>
+      <span class="symbol"> 
+        <a href="termsAndConditions.html"><span class="name">termsAndConditions</span></a>
+        
+        <span class="result"> extends AnyRef</span>
       </span>
       </h4>
       <p class="comment cmt"><b>This is the place to put the legalese.</b></p>
     </li></ol>
             </div>
-
+        
         
 
-        <div id="values" class="values members">
+        <div class="values members" id="values">
               <h3>Value Members</h3>
-              <ol><li name="docSample.subCode" visbl="pub" data-isabs="false">
+              <ol><li visbl="pub" name="docSample.subCode" data-isabs="false">
       <a id="subCode:subCode"></a>
       <h4 class="signature">
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">package</span>
-      </span>
-      <span class="symbol">
+      <span class="kind">package</span>
+      <span class="symbol"> 
         <a href="subCode/package.html"><span class="name">subCode</span></a>
+        
+        
       </span>
       </h4>
       <p class="comment cmt">If you are having trouble getting the package descriptions to show up with scaladoc,
@@ -105,18 +101,12 @@ the following might help:</p>
             </div>
 
         
-        </div>
 
-        <div id="inheritedMembers">
         
-        </div>
 
       </div>
-
+      
       <div id="tooltip"></div>
-
-      <div id="footer">  </div>
-
-
+      
     </body>
       </html>

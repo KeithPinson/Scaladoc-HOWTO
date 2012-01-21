@@ -2,7 +2,7 @@
 	color: inherit;
 	font-size: 10pt;
 	text-decoration: none;
-        font-family: Arial, sans-serif;
+	font-family: Arial;
 	border-width: 0px;
 	padding: 0px;
 	margin: 0px;
@@ -85,11 +85,13 @@ h1 {
 }
 
 #textfilter > .input > input {
-	height: 20px;
+	height: 21px;
 	padding: 1px;
  	font-weight: bold;
 	color: #000000;
-        background: #ffffff url("filterboxbarbg.png") repeat-x bottom left;
+	background-color: white;
+        background: url("filterboxbarbg.png");
+        background-repeat:repeat-x;
         width: 100%;
 }
 

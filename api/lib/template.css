@@ -34,15 +34,6 @@ body {
   font-size: 10pt;
 }
 
-#footer {
-  font-size: 9pt;
-  text-align: center;
-  color: #858484;
-  bottom: 0;
-  width: 100%;
-  height: 20px;
-}
-
 a[href] {
   text-decoration: underline;
   color: #315479;
@@ -134,7 +125,7 @@ text-decoration: none;
   padding: 8px;
 }
 
-#signature > span.modifier_kind {
+#signature > span.kind {
   display: inline;
   float: left;
   text-align: left;
@@ -212,7 +203,9 @@ dl.attributes > dd {
 }
 
 #template .values > h3 {
-  background: #2C475C url("valuemembersbg.gif") repeat-x bottom left;  /* grayish blue */
+  background-color: #315479; /* grayish blue */
+  background: url("valuemembersbg.gif");
+  background-repeat:repeat-x;
   height: 18px;
 }
 
@@ -221,23 +214,36 @@ dl.attributes > dd {
 }
 
 #template .types > h3 {
-  background: #316555 url("typebg.gif") repeat-x bottom left;  /* green */
+  background-color: #316555; /* green */
+  background: url("typebg.gif");
+  background-repeat:repeat-x;
   height: 18px;
 }
 
 #constructors > h3 {
-  background: #4f504f url("constructorsbg.gif") repeat-x bottom left; /* gray */
+  background-color: #333;
+  background: url("constructorsbg.gif");
+  background-repeat:repeat-x;
   height: 18px;
 }
 
-#inheritedMembers > div.parent > h3 {
-  background: #dadada url("constructorsbg.gif") repeat-x bottom left; /* gray */
+#template > div.parent > h3 {
+  background-color: #dadada;
+/*  border:1px solid #6f6f6f;
+  border-left:0;
+  border-right:0;*/
+  background: url("constructorsbg.gif");
+  background-repeat:repeat-x;
   height: 17px;
+/*  margin-top: 10px;*/
+/*  color: black;
+  text-shadow: white 0px 1px 0px;
+  font-weight: normal;8*/
   font-style: italic;
   font-size: 12pt;
 }
 
-#inheritedMembers > div.parent > h3 * {
+#template > div.parent > h3 * {
   color: white;
 }
 
@@ -282,10 +288,10 @@ div.members > ol > li:last-child {
   text-shadow: white 0px 1px 0px;
 }
 
-.signature .modifier_kind {
+.signature .kind {
   position: absolute;
   text-align: right;
-  width: 14em;
+  width: 8em;
 }
 
 .signature > a > .symbol > .name {
@@ -302,7 +308,7 @@ div.members > ol > li:last-child {
 
 .signature > .symbol {
   display: block;
-  padding-left: 14.7em;
+  padding-left: 8.7em;
 }
 
 .signature .name {
@@ -392,30 +398,6 @@ div.members > ol > li:last-child {
   font-family: monospace;
 }
 
-.cmt pre span.ano {
-  color: blue;
-}
-
-.cmt pre span.cmt {
-  color: green;
-}
-
-.cmt pre span.kw {
-  font-weight: bold;
-}
-
-.cmt pre span.lit {
-  color: #c71585;
-}
-
-.cmt pre span.num {
-  color: #1e90ff; /* dodgerblue */
-}
-
-.cmt pre span.std {
-  color: #008080; /* teal */
-}
-
 .cmt ul {
   display: block;
   list-style: circle;
@@ -471,7 +453,7 @@ div.members > ol > li:last-child {
 
 p.comment {
   display: block;
-  margin-left: 14.7em;
+  margin-left: 8.7em;
   margin-top: 5px;
 }
 
@@ -493,11 +475,11 @@ div.fullcomment {
 #template div.fullcommenttop,
 #template div.fullcomment {
   display:none;
-  margin: 5px 0 0 14.7em;
+  margin: 5px 0 0 8.7em;
 }
 
 #template .shortcomment {
-  margin: 5px 0 0 14.7em;
+  margin: 5px 0 0 8.7em;
   padding: 0;
 }
 
@@ -505,7 +487,6 @@ div.fullcomment .block {
   padding: 5px 0 0;
   border-top: 1px solid #EBEBEB;
   margin-top: 5px;
-  overflow: hidden;
 }
 
 div.fullcommenttop .block {
@@ -535,25 +516,19 @@ div.fullcomment .comment:last-child {
   margin-bottom: 0;
 }
 
-div.fullcommenttop dl.paramcmts {
-  margin-bottom: 0.8em;
-  padding-bottom: 0.8em;
-}
 
 div.fullcommenttop dl.paramcmts > dt,
 div.fullcomment dl.paramcmts > dt {
   display: block;
   float: left;
   font-weight: bold;
-  min-width: 70px;
 }
 
 div.fullcommenttop dl.paramcmts > dd,
 div.fullcomment dl.paramcmts > dd {
   display: block;
-  padding-left: 10px;
+  padding-left: 80px;
   margin-bottom: 5px;
-  margin-left: 70px;
 }
 
 /* Members filter tool */
@@ -584,11 +559,13 @@ div.fullcomment dl.paramcmts > dd {
 }
 
 #textfilter > .input > input {
-	height: 20px;
+	height: 21px;
 	padding: 1px;
  	font-weight: bold;
 	color: #000000;
-        background: #ffffff url("filterboxbarbg.png") repeat-x top left;
+	background-color: white;
+        background: url("filterboxbarbg.png");
+        background-repeat:repeat-x;
         width: 100%;
 }
 
@@ -651,7 +628,7 @@ div.fullcomment dl.paramcmts > dd {
 }
 
 #mbrsel > div > ol#linearization > li.in > span{
-  color: #404040;
+  color: #4C4C4C;
   float: left;
   padding: 1px 0 1px 10px;
   background: url(selected.png) no-repeat;
@@ -676,7 +653,7 @@ div.fullcomment dl.paramcmts > dd {
 }
 
 #mbrsel > div > ol > li.in > span{
-  color: #404040;
+  color: #4C4C4C;
   float: left;
   padding: 1px 0 1px 10px;
   background: url(selected.png) no-repeat;
@@ -692,7 +669,7 @@ div.fullcomment dl.paramcmts > dd {
 }
 
 #mbrsel > div > ol > li.out > span{
-  color: #747474;
+  color: #4B4B4B;
 /*  background-color: #999; */
   float: left;
   padding: 1px 0 1px 10px;
