@@ -33,13 +33,10 @@ software tool, platform, or framework.</p><p>Code commenting caters to two disti
 is the maintainer of the code.  Scaladoc is used to create a software API that is entirely
 accessible through a web browser.  So, it caters to the user of the code.  This is
 a black box view of the code.  Keep this in mind and write your scaladoc comments for an
-audience that knows very little about what your software does.</p><p>Because this is an API it is appropriate to:</p><ul><li>Plug the benefits of your software</li><li>State which versions and build tools are known to work</li><li>Provide links to tutorial or demo to facilitate a speedy evaluation</li><li>Give step-by-step instructions to setup a build</li><li>Provide plenty of descriptions and examples</li></ul><p>Go to <a name="docSample.syntax" class="extype" href="syntax.html">syntax</a> to see how to insert markup.</p><p><br/><br/>
-<b>How to run Scaladoc</b><br/>
-<b>for this Example</b><br/></p><p>(Scala will need to be downloaded and installed for this to work)</p><ol class="decimal"><li>Make a directory for the generated web pages, <i>md api</i><br/></li><li>Change directory, <i>cd api</i><br/></li><li>Run the the tool,<br/>
-    <i>scaladoc &lt;space separated list of directories with a *.scala wildcard&gt;</i><br/><br/></li><li>Sbt can be used also by using the <i>doc</i> command.  Be prepared though, Sbt may
-run an older version of Scaladoc.</li></ol><p><b>Note:</b> Tested and built using version scaladoc v2.9.1 from the command prompt
-</p></div><dl class="attributes block"> <dt>See also</dt><dd><span class="cmt"><p><a name="docSample.termsAndConditions" class="extype" href="termsAndConditions.html">termsAndConditions</a>
-</p></span></dd></dl></div>
+audience that knows very little about what your software does.</p><p>Because this is an API it is appropriate to:</p><ul><li>Plug the benefits of your software</li><li>State which versions and build tools are known to work</li><li>Provide links to a tutorial or demo to facilitate speedy evaluation</li><li>Give step-by-step instructions to setup a build</li><li>Provide plenty of descriptions and examples</li></ul><p>Go to <a name="docSample.syntax" class="extype" href="syntax.html">syntax</a> to see how to insert markup.</p><h4>How to Run Scaladoc<br/>for this Example</h4><p>(Scala will need to be downloaded and installed for this to work)</p><ol class="decimal"><li>Make a directory for the generated web pages, <i>md api</i><br/></li><li>Change directory, <i>cd api</i><br/></li><li>Run the the tool,<br/>
+    <i>scaladoc &lt;space separated list of directories with a *.scala wildcard&gt;</i><br/><br/></li></ol><h4>Alternate Ways to Run Scaladoc</h4><ul><li>Sbt can be used also by using the <i>doc</i> command.  Be prepared though, Sbt may run an older version of Scaladoc.<br/><br/></li><li>IntelliJ IDEA 11 comes with a &quot;Generate Scaladoc&quot; tool.  <i>(When I tried it Jan of 2012 it did not automatically support the project's CLASSPATH -- it may be working by the time you read this.)</i><br/><br/></li><li>I understand there is an Eclipse plugin.  <i>I have not tried it.</i><br/><br/></li><li>The tried-and-true method is to run Scaladoc with an Ant build.  The Scala Language API is current built this way.<br/></li></ul><p><br/><br/>
+<b>Note:</b> Tested and built from the command prompt using:</p><ul><li>scaladoc v2.9.1</li><li>scaladoc v2.10.0M1</li></ul><p><br/> <br/></p></div><dl class="attributes block"> <dt>See also</dt><dd><span class="cmt"><p><a name="docSample.termsAndConditions" class="extype" href="termsAndConditions.html">termsAndConditions</a><br/>
+<a href="http://github.com/KeithPinson/Scaladoc-HOWTO" target="_top">Scala code used to generate what you're looking at now</a></p></span></dd></dl></div>
         
 
       <div id="template">
@@ -58,18 +55,7 @@ run an older version of Scaladoc.</li></ol><p><b>Note:</b> Tested and built usin
 
         <div class="types members" id="types">
               <h3>Type Members</h3>
-              <ol><li visbl="pub" name="docSample.classSample" data-isabs="false">
-      <a id="classSample:classSample"></a>
-      <h4 class="signature">
-      <span class="kind">class</span>
-      <span class="symbol"> 
-        <a href="classSample.html"><span class="name">classSample</span></a>
-        
-        <span class="result"> extends AnyRef</span>
-      </span>
-      </h4>
-      <p class="comment cmt">Start right off with the description of what the class does.</p>
-    </li><li visbl="pub" name="docSample.syntax" data-isabs="false">
+              <ol><li visbl="pub" name="docSample.syntax" data-isabs="false">
       <a id="syntax:syntax"></a>
       <h4 class="signature">
       <span class="kind">class</span>
@@ -79,7 +65,8 @@ run an older version of Scaladoc.</li></ol><p><b>Note:</b> Tested and built usin
         <span class="result"> extends AnyRef</span>
       </span>
       </h4>
-      <p class="comment cmt"><b>Basic Scaladoc Syntax</b></p>
+      <p class="comment cmt">Just like javadoc, scaladoc comments are identified by adding an extra asterisk
+to the start of the comment block.</p>
     </li><li visbl="pub" name="docSample.termsAndConditions" data-isabs="false">
       <a id="termsAndConditions:termsAndConditions"></a>
       <h4 class="signature">
