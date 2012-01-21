@@ -7,7 +7,7 @@ Please view the [API](http://keithpinson.github.com/Scaladoc-HOWTO/api/index.htm
 
 ---
 
-**Scaladoc 2.10.0M1** Problems with backticks have been fixed.  But if you were enclosing text
+**Scaladoc 2.10.0M1** problems with backticks have been fixed.  But if you were enclosing text
                       in backticks to take it out of the scaladoc processing flow, you will
                       need to find another solution (this works the way it was supposed now.)
 
