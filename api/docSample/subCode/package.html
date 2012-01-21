@@ -5,94 +5,99 @@
           <title>docSample.subCode</title>
           <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
           
-      <link type="text/css" media="screen" rel="stylesheet" href="../../lib/template.css" />
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
       <script type="text/javascript" src="../../lib/jquery.js"></script>
       <script type="text/javascript" src="../../lib/jquery-ui.js"></script>
       <script type="text/javascript" src="../../lib/template.js"></script>
       <script type="text/javascript" src="../../lib/tools.tooltip.js"></script>
     
         </head>
-        <body class="value">
+        <body class="value" onload="sh_highlightDocument('../lib/', '.min.js');">
       <div id="definition">
         <img src="../../lib/package_big.png" />
-        <p id="owner"><a name="docSample" class="extype" href="../package.html">docSample</a></p>
+        <p id="owner"><a href="../package.html" class="extype" name="docSample">docSample</a></p>
         <h1>subCode</h1>
       </div>
 
-      <h4 class="signature" id="signature">
-      <span class="kind">package</span>
-      <span class="symbol"> 
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
         <span class="name">subCode</span>
-        
-        
       </span>
       </h4>
       
-          <div class="fullcommenttop" id="comment"><div class="comment cmt"><p>If you are having trouble getting the package descriptions to show up with scaladoc,
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>If you are having trouble getting the package descriptions to show up with scaladoc,
 the following might help:</p><ul><li>Place package description in a file called <i>package.scala</i></br></li><li>Make sure the directory structure matches precisely the package structure</br></li><li>Make sure the <i>package.scala</i> file is in its corresponding directory</br></li></ul><p>The root <code>package.scala</code> file should look like:</p><pre>
-/**
+<span class="cmt">/**
  * Scaladoc comments
  *
  *    Note: No beginning package statement for the root package.
- */
- package object rootPackage
+ */</span>
+ <span class="kw">package</span> <span class="kw">object</span> rootPackage
 </pre><p><br/>
 A sub <code>package.scala</code> file should look like:</p><pre>
-package rootPackage
+<span class="kw">package</span> rootPackage
 
-/**
+<span class="cmt">/**
  * Scaladoc comments
- *
- *    Tip: The package name reads better if it is
- *         not the full path name but just the parent name
- */
- package object subPackage
-</pre><p>Back to the beginning, <a name="docSample" class="extype" href="../package.html">docSample</a>
+ */</span>
+ <span class="kw">package</span> <span class="kw">object</span> subPackage
+</pre><p>Back to the beginning, <a href="../package.html" class="extype" name="docSample">docSample</a>
 </p></div></div>
         
 
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
       <div id="template">
-
-        <div id="mbrsel">
-          <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
-          
-          
-          <div id="visbl">
-              <span class="filtertype">Visibility</span>
-              <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
-            </div>
-        </div>
-
+        <div id="allMembers">
         
 
-        <div class="types members" id="types">
+        <div id="types" class="types members">
               <h3>Type Members</h3>
-              <ol><li visbl="pub" name="docSample.subCode.subClassSample" data-isabs="false">
+              <ol><li name="docSample.subCode.subClassSample" visbl="pub" data-isabs="false">
       <a id="subClassSample:subClassSample"></a>
       <h4 class="signature">
-      <span class="kind">class</span>
-      <span class="symbol"> 
-        <a href="subClassSample.html"><span class="name">subClassSample</span></a>
-        
-        <span class="result"> extends AnyRef</span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="subClassSample.html"><span class="name">subClassSample</span></a><span class="result"> extends AnyRef</span>
       </span>
       </h4>
-      <p class="comment cmt">Example sub package class
+      <p class="comment cmt">Description
 </p>
     </li></ol>
             </div>
-        
-        
 
         
 
         
 
         
+        </div>
+
+        <div id="inheritedMembers">
+        
+        </div>
 
       </div>
-      
+
       <div id="tooltip"></div>
-      
+
+      <div id="footer">  </div>
+
+
     </body>
       </html>

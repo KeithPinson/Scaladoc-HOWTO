@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23.190cm" height="20.108cm" viewBox="0.950 0.172 24.140 20.281"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<text x="1.950" y="0.850"  fill="#000000" text-anchor="start" font-size="1.00" font-family="sans" font-style="normal" font-weight="400">
+Hitchcock MacGuffin</text>
+<text x="8.750" y="6.250"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Replace</text>
+<text x="4.900" y="6.250"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Change</text>
+<text x="1.300" y="6.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Keep</text>
+<line x1="4.400" y1="1.398" x2="2.483" y2="4.922" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="2.303,5.252 2.323,4.693 2.483,4.922 2.762,4.932 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="2.303,5.252 2.323,4.693 2.483,4.922 2.762,4.932 "/>
+<line x1="6.050" y1="1.398" x2="6.094" y2="5.063" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="6.099,5.438 5.843,4.941 6.094,5.063 6.343,4.935 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="6.099,5.438 5.843,4.941 6.094,5.063 6.343,4.935 "/>
+<line x1="7.300" y1="1.298" x2="9.551" y2="5.082" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="9.743,5.404 9.272,5.102 9.551,5.082 9.702,4.846 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="9.743,5.404 9.272,5.102 9.551,5.082 9.702,4.846 "/>
+<line x1="9.750" y1="1.248" x2="12.600" y2="2.648" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<text x="11.200" y="3.500"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Plot need</text>
+<text x="11.223" y="1.750"  fill="#000000" text-anchor="start" font-size="0.60" font-family="sans" font-style="normal" font-weight="400">
+corresponds to</text>
+<line x1="11.350" y1="6.450" x2="11.570" y2="7.768" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="11.632,8.138 11.303,7.686 11.570,7.768 11.796,7.603 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="11.632,8.138 11.303,7.686 11.570,7.768 11.796,7.603 "/>
+<text x="9.850" y="9.000"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Plot Twist</text>
+<line x1="11.350" y1="5.800" x2="13.987" y2="6.651" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="14.344,6.766 13.791,6.850 13.987,6.651 13.944,6.374 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="14.344,6.766 13.791,6.850 13.987,6.651 13.944,6.374 "/>
+<text x="14.700" y="7.000"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Adventure becomes Survival</text>
+<line x1="11.700" y1="9.348" x2="11.594" y2="10.513" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="11.560,10.887 11.356,10.366 11.594,10.513 11.854,10.411 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="11.560,10.887 11.356,10.366 11.594,10.513 11.854,10.411 "/>
+<text x="8.600" y="11.548"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+New MacGuffin</text>
+<line x1="11.950" y1="11.998" x2="11.950" y2="14.161" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="11.950,14.536 11.700,14.036 11.950,14.161 12.200,14.036 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="11.950,14.536 11.700,14.036 11.950,14.161 12.200,14.036 "/>
+<text x="10.500" y="15.598"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Good vs Bad</text>
+<line x1="10.050" y1="11.798" x2="9.759" y2="12.409" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="9.598,12.747 9.587,12.188 9.759,12.409 10.039,12.403 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="9.598,12.747 9.587,12.188 9.759,12.409 10.039,12.403 "/>
+<text x="8.250" y="13.536"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+All is lost</text>
+<line x1="6.900" y1="6.636" x2="8.999" y2="10.131" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="9.192,10.452 8.721,10.152 8.999,10.131 9.149,9.895 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="9.192,10.452 8.721,10.152 8.999,10.131 9.149,9.895 "/>
+<line x1="8.700" y1="13.848" x2="8.021" y2="14.620" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="7.774,14.902 7.916,14.361 8.021,14.620 8.292,14.691 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="7.774,14.902 7.916,14.361 8.021,14.620 8.292,14.691 "/>
+<text x="6.250" y="15.736"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+A way out</text>
+<text x="4.000" y="18.786"  fill="#000000" text-anchor="start" font-size="1.00" font-family="sans" font-style="normal" font-weight="400">
+Satisfying</text>
+<text x="4.000" y="19.786"  fill="#000000" text-anchor="start" font-size="1.00" font-family="sans" font-style="normal" font-weight="400">
+Conclusion</text>
+<line x1="1.950" y1="6.536" x2="5.115" y2="17.530" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="5.219,17.891 4.840,17.479 5.115,17.530 5.321,17.341 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="5.219,17.891 4.840,17.479 5.115,17.530 5.321,17.341 "/>
+<line x1="7.250" y1="16.098" x2="6.643" y2="17.501" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="6.494,17.845 6.463,17.287 6.643,17.501 6.922,17.486 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="6.494,17.845 6.463,17.287 6.643,17.501 6.922,17.486 "/>
+<line x1="12.300" y1="15.948" x2="8.037" y2="18.034" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="7.700,18.199 8.040,17.755 8.037,18.034 8.259,18.204 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="7.700,18.199 8.040,17.755 8.037,18.034 8.259,18.204 "/>
+<line x1="14.450" y1="3.048" x2="18.350" y2="3.098" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<text x="14.908" y="2.518"  fill="#000000" text-anchor="start" font-size="0.60" font-family="sans" font-style="normal" font-weight="400">
+corresponds to</text>
+<text x="18.800" y="3.286"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Audience Need</text>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 8.531,18.870 A 11.818,11.818 0 0,0 21.800,7.398 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="8.160,18.818 8.694,18.654 8.530,18.880 8.613,19.147 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="8.160,18.818 8.694,18.654 8.530,18.880 8.613,19.147 "/>
+</svg>

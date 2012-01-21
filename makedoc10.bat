@@ -13,11 +13,10 @@
 @set PACKAGES=..\src\main\scala\com\keithpinson\docSample\*.scala
 @set PACKAGES=%PACKAGES% ..\src\main\scala\com\keithpinson\docSample\subCode\*.scala
 
-
 @md api
 @cd api
-call scaladoc.bat -classpath %CLASSPATH% %PACKAGES%
-:: call D:\src\ScalaProjects\scala-lang\scala-2.10.0-M1\bin\scaladoc.bat -classpath %CLASSPATH% %PACKAGES%
+:: call scaladoc.bat -classpath %CLASSPATH% %PACKAGES%
+call D:\src\ScalaProjects\scala-lang\scala-2.10.0-M1\bin\scaladoc.bat -classpath %CLASSPATH% %PACKAGES%
 
 :: Copy jpg, png, and other such resources 
 @xcopy /QEIY ..\doc-resources doc-resources

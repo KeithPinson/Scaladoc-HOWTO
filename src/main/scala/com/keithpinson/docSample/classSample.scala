@@ -1,14 +1,14 @@
 package docSample
 
 /*
- * Copyright (c) 2011 Keith Pinson,
+ * Copyright (c) 2012 Keith Pinson,
  *
  * Created: 9/10/11 3:53 PM
+ * Modified: 1/20/12 1:58 PM 
  *
  * To change this template in IntelliJ use File | Settings | File Templates.
  */
 
-/*#! scaladoc */
 /**
  * Start right off with the description of what the class does.
  *
@@ -20,13 +20,10 @@ package docSample
 
 class classSample {
 
-  /*#! scaladoc */
   /**
-   *
    * @param a An argument
    * @param b Another argument
    * @constructor creates a new thing (this may not working yet)
-   *
    */
   def methodSample( a:Int, b:Int ) = {
 

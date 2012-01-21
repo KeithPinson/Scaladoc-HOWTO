@@ -1,8 +1,6 @@
 package docSample
 
-/*#! scaladoc */
 /**
- *
  * If you are having trouble getting the package descriptions to show up with scaladoc, 
  * the following might help:
  *
@@ -30,9 +28,6 @@ package docSample
  *
  * /**
  *  * Scaladoc comments
- *  *
- *  *    Tip: The package name reads better if it is
- *  *         not the full path name but just the parent name
  *  */
 
  package object subPackage

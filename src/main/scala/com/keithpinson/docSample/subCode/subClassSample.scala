@@ -1,14 +1,10 @@
 package docSample.subCode
 
 /*
- * Description
- *
- * Copyright (c) 2011 Cifax Software Solutions,
- *
- * @version $LastChangedRevision$<br/>
+ * Copyright (c) 2012 Keith Pinson
  *
  * Created: 9/10/11 3:53 PM
- * Updated:  
+ * Modified: 1/20/12 2:08 PM
  * 
  * To change this template in IntelliJ use File | Settings | File Templates.
  */
@@ -21,6 +17,6 @@ package docSample.subCode
 
 class subClassSample {
 
-  def evenThisMethodIsDocumented( r:Int ) = r+1
+  def evenThisUncommentedMethodIsDocumented( r:Int ) = r+1
 
 }
